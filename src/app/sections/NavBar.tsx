@@ -17,7 +17,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex w-full items-center justify-center gap-2 rounded-lg bg-[#07070a]/60 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[500px] md:p-2">
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex w-full items-center justify-center gap-2 rounded-lg bg-[#07070a]/30 px-1 py-1 text-[#e4ded7] backdrop-blur-lg sm:w-[550px] md:p-2">
       <Link
         href="https://drive.google.com/file/d/133x7U-89zBaRGAoXOEXyGA6-ptIlx5to/view?usp=drive_link"
         target="_blank"

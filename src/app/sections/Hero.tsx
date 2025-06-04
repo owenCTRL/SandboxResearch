@@ -117,7 +117,7 @@ const OttrHero: React.FC = () => {
         {/* Hero Content */}
         <div className="relative z-10 text-center px-6 max-w-7xl mx-auto">
           {/* Logo */}
-          <div className="mb-8 inline-flex items-center justify-center">
+          <div className="mb-8 mt-5 inline-flex items-center justify-center">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full blur-xl opacity-50"></div>
               <div className="relative bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full p-4">
@@ -131,10 +131,10 @@ const OttrHero: React.FC = () => {
 
           {/* Main Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
-            <span className="block opacity-0 animate-fadeInUp">
+            <span className="block opacity-0 animate-fadeInUp font-black">
               ATLAS:
             </span>
-            <span className="block mt-2 opacity-0 animate-fadeInUp animation-delay-200">
+            <span className="block mt-2 opacity-0 animate-fadeInUp animation-delay-200 font-bold">
               <span className="text-red-500">Capped</span> Downside.<br></br>{' '}
               <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent animate-gradient">
                 Unlimited
