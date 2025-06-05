@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ottr Co. | Decentralized Finance Solutions",
-  description: "ottr is a decentralized finance company that offers innovative solutions for managing and optimizing your digital assets.",
+  title: "ottr Capital | Decentralized Finance Solutions",
+  description: "ottr is a revolutionary fintech company offering institutional-grade crypto investment through ATLAS, combining AI-driven quantitative strategies, DeFi innovation, and mathematical risk management to deliver superior returns with protected downside.",
 };
 
 export default function RootLayout({

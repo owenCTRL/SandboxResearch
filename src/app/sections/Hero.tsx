@@ -125,7 +125,7 @@ const OttrHero: React.FC = () => {
               </div>
             </div>
             <span className="ml-4 text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              ottr.crypto
+              ottr.capital
             </span>
           </div>
 
