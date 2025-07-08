@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ottr Capital | Decentralized Finance Solutions",
-  description: "ottr is a revolutionary fintech company offering institutional-grade crypto investment through ATLAS, combining AI-driven quantitative strategies, DeFi innovation, and mathematical risk management to deliver superior returns with protected downside.",
+  title: "OTTR | Venture Capital",
+  description: "OTTR is a revolutionary venture capital firm currently building Clickroot and Sandbox Research.",
 };
 
 export default function RootLayout({

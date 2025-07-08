@@ -125,7 +125,7 @@ const OttrHero: React.FC = () => {
               </div>
             </div>
             <span className="ml-4 text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              ottr.capital
+              OTTR Co.
             </span>
           </div>
 
@@ -145,7 +145,7 @@ const OttrHero: React.FC = () => {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 opacity-0 animate-fadeInUp animation-delay-400">
-            Asymmetric Trading & Liqiudity Allocation System (ATLAS):<br></br>
+            Asymmetric Trading & Liquidity Allocation System (ATLAS):<br></br>
             <span className="text-white font-semibold"> Mathematical protection</span> meets 
             <span className="text-white font-semibold"> exponential growth</span> potential 
             in a revolutionary DeFi investment framework.
