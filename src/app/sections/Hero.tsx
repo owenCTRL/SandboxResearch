@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { TrendingUp, TrendingDown, Shield, Zap, Lock, ChartLine, Coins, ArrowRight } from 'lucide-react';
+import { TrendingUp, TrendingDown, Globe, Timer, Cpu, Coins, Trophy, ArrowRight } from 'lucide-react';
 
 interface TickerItem {
   symbol: string;
@@ -31,10 +31,10 @@ const OttrHero: React.FC = () => {
   const [activeMetric, setActiveMetric] = useState(0);
 
   const performanceMetrics: PerformanceMetric[] = [
-    { label: 'Total Value Protected', value: '$2.4B+', icon: <Shield className="w-5 h-5" /> },
-    { label: 'Maximum Drawdown', value: '-15%', icon: <Lock className="w-5 h-5" /> },
-    { label: 'Average APY', value: '127%', icon: <ChartLine className="w-5 h-5" /> },
-    { label: 'Active Strategies', value: '24/7', icon: <Zap className="w-5 h-5" /> },
+    { label: 'Industries Served', value: '12+', icon: <Globe className="w-5 h-5" /> },
+    { label: 'Avg. Time to Impact', value: '14 Days', icon: <Timer className="w-5 h-5" /> },
+    { label: 'Client Win Rate', value: '92%', icon: <Trophy className="w-5 h-5" /> },
+    { label: 'Strategy Models Run', value: '3,000+', icon: <Cpu className="w-5 h-5" /> },
   ];
 
   useEffect(() => {
@@ -105,51 +105,34 @@ const OttrHero: React.FC = () => {
 
       {/* Hero Section */}
       <div className="relative min-h-[calc(100vh-4rem)] flex items-center justify-center">
-        {/* Animated Background */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute inset-0">
-            <div className="absolute top-0 -left-4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-            <div className="absolute top-0 -right-4 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
-            <div className="absolute -bottom-8 left-20 w-96 h-96 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-4000"></div>
-          </div>
-        </div>
-
         {/* Hero Content */}
         <div className="relative z-10 text-center px-6 max-w-7xl mx-auto">
           {/* Logo */}
           <div className="mb-8 mt-5 inline-flex items-center justify-center">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full blur-xl opacity-50"></div>
-              <div className="relative bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full p-4">
-                <Zap className="w-10 h-10 text-white" />
-              </div>
-            </div>
-            <span className="ml-4 text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              OTTR Co.
-            </span>
+            <span className="ml-4 text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Sandbox Research</span>
           </div>
 
           {/* Main Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
-            <span className="block opacity-0 animate-fadeInUp font-black">
-              ATLAS:
+            <span className="block opacity-0 animate-fadeInUp font-bold">
+              Build a Strategy That Wins.
             </span>
             <span className="block mt-2 opacity-0 animate-fadeInUp animation-delay-200 font-bold">
-              <span className="text-red-500">Capped</span> Downside.<br></br>{' '}
+              Any Industry.{' '}
               <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent animate-gradient">
-                Unlimited
-              </span>{' '}
-              Upside.
+                Any Goal.
+              </span>
+              <br></br>
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 opacity-0 animate-fadeInUp animation-delay-400">
-            Asymmetric Trading & Liquidity Allocation System (ATLAS):<br></br>
-            <span className="text-white font-semibold"> Mathematical protection</span> meets 
-            <span className="text-white font-semibold"> exponential growth</span> potential 
-            in a revolutionary DeFi investment framework.
+            Winning isn&apos;t luck. It&apos;s strategy.<br></br>
+            We build strategies and model outcomes for <span className="text-white font-semibold">politics</span>, <span className="text-white font-semibold">business</span>, and <span className="text-white font-semibold">more.</span><br></br>
+            <span className="mt-2 block text-white font-semibold">Test. Tweak. Win.</span>
           </p>
+
 
           {/* Performance Metrics */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 opacity-0 animate-fadeInUp animation-delay-500">
@@ -174,14 +157,10 @@ const OttrHero: React.FC = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 opacity-0 animate-fadeInUp animation-delay-600">
             <button className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
-              <span className="relative z-10 flex items-center justify-center">
-                Start Investing
+              <a href="mailto:owen.ottr@gmail.com" className="relative z-10 flex items-center justify-center">
+                Build Your Strategy
                 <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
-              </span>
-            </button>
-            
-            <button className="group relative px-8 py-4 bg-white/10 backdrop-blur-lg text-white font-semibold rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:bg-white/20 border border-white/20">
-              <span className="relative z-10">View Live Performance</span>
+              </a>
             </button>
           </div>
 
@@ -189,15 +168,11 @@ const OttrHero: React.FC = () => {
           <div className="flex flex-wrap justify-center items-center gap-6 text-sm opacity-0 animate-fadeInUp animation-delay-700">
             <div className="flex items-center gap-2 text-gray-400">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-              <span>Audited Smart Contracts</span>
+              <span>24/7 Global Services</span>
             </div>
             <div className="flex items-center gap-2 text-gray-400">
               <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
-              <span>150+ Countries</span>
-            </div>
-            <div className="flex items-center gap-2 text-gray-400">
-              <div className="w-2 h-2 bg-cyan-500 rounded-full animate-pulse"></div>
-              <span>24/7 Automated</span>
+              <span>100% Client Satisfaction</span>
             </div>
           </div>
         </div>

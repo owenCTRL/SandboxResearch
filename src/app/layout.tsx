@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OTTR | Venture Capital",
-  description: "OTTR is a revolutionary venture capital firm currently building Clickroot and Sandbox Research.",
+  title: "Sandbox Research",
+  description: "Strategic Modeling and Design for Guaranteed Wins.",
 };
 
 export default function RootLayout({

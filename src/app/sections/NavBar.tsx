@@ -17,7 +17,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex w-full items-center justify-center gap-2 rounded-lg bg-[#07070a]/30 px-1 py-1 text-[#e4ded7] backdrop-blur-lg sm:w-[550px] md:p-2">
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex flex-wrap items-center justify-center gap-2 rounded-lg bg-[#07070a]/30 px-2 py-2 text-[#e4ded7] backdrop-blur-lg max-w-[75vw] sm:max-w-[500px] md:p-2">
       <Link
         href="https://drive.google.com/file/d/133x7U-89zBaRGAoXOEXyGA6-ptIlx5to/view?usp=drive_link"
         target="_blank"
@@ -62,25 +62,15 @@ const NavBar = () => {
         </h4>
       </Link>
 
-      <Link
-        href="#blog"
-        onClick={handleScroll}
-        aria-label="Scroll to Blog Section"
-      >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Blog
-        </h4>
-      </Link>
-
-      <Link
-        href="#contact"
-        onClick={handleScroll}
-        aria-label="Scroll to Contact Section"
+      <a
+        href="mailto:owen.ottr@gmail.com"
+        onClick={() => {}}
+        aria-label="Contact Now"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
           Contact
         </h4>
-      </Link>
+      </a>
     </nav>
   );
 };
