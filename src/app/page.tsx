@@ -3,6 +3,7 @@ import NavBar from "./sections/NavBar";
 import OttrHero from "./sections/Hero";
 import OttrOfferingsSection from "./sections/Offerings";
 import AtlasWhitepaper from "./sections/Whitepaper";
+import Contact from "./sections/Contact";
 
 export default function Home() {
 
@@ -13,6 +14,7 @@ export default function Home() {
         <OttrHero />
         <OttrOfferingsSection />
         <AtlasWhitepaper />
+        <Contact />
       </main>
     </>
   );

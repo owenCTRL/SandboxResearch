@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const NavBar = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -17,20 +16,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex flex-wrap items-center justify-center gap-2 rounded-lg bg-[#07070a]/30 px-2 py-2 text-[#e4ded7] backdrop-blur-lg max-w-[75vw] sm:max-w-[500px] md:p-2">
-      <Link
-        href="https://drive.google.com/file/d/133x7U-89zBaRGAoXOEXyGA6-ptIlx5to/view?usp=drive_link"
-        target="_blank"
-        className="flex"
-        aria-label="Open Comp. Returns"
-        data-blobity-tooltip="View Comp. Returns"
-        data-blobity-magnetic="false"
-      >
-        <FontAwesomeIcon
-          icon={faFilePdf}
-          className="py-2 px-2 text-[16px] sm:px-4 md:py-1"
-        />
-      </Link>
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex flex-wrap items-center justify-center gap-2 rounded-lg bg-[#07070a]/30 px-2 py-2 text-[#e4ded7] backdrop-blur-lg max-w-[75vw] sm:max-w-[450px] md:p-2">
 
       <Link
         href="#home"
@@ -53,24 +39,24 @@ const NavBar = () => {
       </Link>
 
       <Link
-        href="#whitepaper"
+        href="#strategy"
         onClick={handleScroll}
-        aria-label="Scroll to Whitepaper Section"
+        aria-label="Scroll to Strategy Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Whitepaper
+          Strategy
         </h4>
       </Link>
 
-      <a
-        href="mailto:owen.ottr@gmail.com"
-        onClick={() => {}}
-        aria-label="Contact Now"
+      <Link
+        href="#contact"
+        onClick={handleScroll}
+        aria-label="Scroll to Contact Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
           Contact
         </h4>
-      </a>
+      </Link>
     </nav>
   );
 };

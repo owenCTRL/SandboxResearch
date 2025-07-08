@@ -130,7 +130,7 @@ const OttrOfferingsSection: React.FC = () => {
 
   return (
     <div className="min-h-screen w-full text-white p-10">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto mb-30">
         {/* Section Header */}
         <div className="text-center mb-16" id="offerings">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -232,7 +232,7 @@ const OttrOfferingsSection: React.FC = () => {
         {/* Breakdown Preview */}
         <div className="relative">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent text-3xl md:text-4xl font-bold mb-4">
               How Winning Works
             </h2>
             <p className="text-xl text-gray-400">

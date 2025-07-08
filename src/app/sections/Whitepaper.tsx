@@ -23,11 +23,11 @@ const AtlasWhitepaper: React.FC = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 rounded-full bg-gradient-to-br from-blue-900/5 via-blue-800/5 to-indigo-900/5 blur-3xl animate-pulse-slow" />
       </div>
 
-      <div className="flex-box bg-gray-900/30 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-gray-800 max-w-6xl ml-auto mr-auto text-gray-300 space-y-20 mb-30" id="whitepaper">
+      <div className="flex-box bg-gray-900/30 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-gray-800 max-w-6xl ml-auto mr-auto text-gray-300 space-y-20 mb-30" id="strategy">
         {/* Title Section */}
         <div className="text-center border-b border-gray-800">
           <h1 className="text-4xl font-bold text-white leading-snug">
-            Engineering Victory:<br />Designing Clear Paths to Strategic Success
+            <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Engineering Victory:</span><br />Designing Clear Paths to Strategic Success
           </h1>
           <p className="text-gray-400 mt-4 text-lg">
             Predictive Modeling and Strategic Framework for Dominance in Complex Environments
