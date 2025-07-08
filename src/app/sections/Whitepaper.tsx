@@ -84,7 +84,7 @@ const AtlasWhitepaper: React.FC = () => {
             <Cpu className="w-5 h-5" /> 3. Controlled Chaos
           </h2>
           <p>
-            Chaos isn’t a flaw – it’s a feature. “Controlled Chaos” converts randomness into power. Taleb&apos;s antifragility teaches us not to predict every shock, but to design systems that improve with volatility.
+            Contrary to popular belief, chaos is something to embrace. “Controlled Chaos” converts randomness into power. Taleb&apos;s antifragility teaches us not to predict every shock, but to design systems that improve with volatility.
           </p>
           <p>
             This means embedding feedback loops: hedges during crises, optionality during spikes, and adaptability under fire. Turbulence then becomes part of the strategy, not a disruption of it.
@@ -97,7 +97,7 @@ const AtlasWhitepaper: React.FC = () => {
             <LineChart className="w-5 h-5" /> 4. Game Theory & Machiavellian Strategy
           </h2>
           <p>
-            Game theory structures the battlefield. Strategies like tit-for-tat and dominant plays can guide opponents into predictable behavior. Machiavellian design isn’t manipulation—it’s architecture: building incentives so that adversaries reinforce your path.
+            Game theory structures the battlefield. Strategies like tit-for-tat and dominant plays can guide opponents into predictable behavior. Machiavellian design not by manipulation by in building incentives so that adversaries reinforce your path.
           </p>
           <p>
             With properly structured payoffs, every rational actor “chooses” to help you win.
