@@ -23,16 +23,16 @@ const AtlasWhitepaper: React.FC = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 rounded-full bg-gradient-to-br from-blue-900/5 via-blue-800/5 to-indigo-900/5 blur-3xl animate-pulse-slow" />
       </div>
 
-      <div className="flex-box bg-gray-900/30 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-gray-800 max-w-6xl ml-auto mr-auto text-gray-300 space-y-20 mb-30" id="strategy">
+      <div className="flex-box bg-gray-900/30 backdrop-blur-xl rounded-3xl p-8 sm:p-2 md:p-12 border border-gray-800 max-w-6xl ml-auto mr-auto text-gray-300 space-y-20 mb-10" id="strategy">
         {/* Title Section */}
-        <div className="text-center border-b border-gray-800">
-          <h1 className="text-4xl font-bold text-white leading-snug">
-            <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Engineering Victory:</span><br />Designing Clear Paths to Strategic Success
+        <div className="text-center border-b border-gray-800 mb-8">
+          <h1 className="text-4xl md:text-3xl font-bold text-white leading-snug mt-8">
+            <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Engineering Victory:</span><br /><div className='mt-4'><span className='md:text-3xl text-2xl'>Designing Clear Paths to Strategic Success</span></div>
           </h1>
           <p className="text-gray-400 mt-4 text-lg">
             Predictive Modeling and Strategic Framework for Dominance in Complex Environments
           </p>
-          <div className="flex justify-center gap-4 mt-6 mb-6 text-sm text-gray-500">
+          <div className="flex justify-center gap-4 mt-6 mb-8 md:text-sm text-gray-500 sm:text-xs">
             <span>Sandbox Research</span>
             <span>•</span>
             <span>v1.0 | July 2025</span>
@@ -41,7 +41,7 @@ const AtlasWhitepaper: React.FC = () => {
 
         {/* Abstract */}
         <section id="abstract" className="space-y-6">
-          <h2 className="text-2xl font-bold flex items-center gap-2 text-blue-400">
+          <h2 className="md:text-2xl font-bold flex items-center gap-2 text-blue-400 sm:text-xl">
             <FileText className="w-5 h-5" /> Abstract
           </h2>
           <p>
@@ -54,7 +54,7 @@ const AtlasWhitepaper: React.FC = () => {
 
         {/* 1. The Victory Stack */}
         <section id="introduction" className="space-y-6">
-          <h2 className="text-2xl font-bold flex items-center gap-2 text-blue-400">
+          <h2 className="md:text-2xl font-bold flex items-center gap-2 text-blue-400 sm:text-xl">
             <Hash className="w-5 h-5" /> 1. The Victory Stack
           </h2>
           <p>
@@ -67,7 +67,7 @@ const AtlasWhitepaper: React.FC = () => {
 
         {/* 2. The Edge Funnel */}
         <section id="mathematical" className="space-y-6">
-          <h2 className="text-2xl font-bold flex items-center gap-2 text-blue-400">
+          <h2 className="md:text-2xl font-bold flex items-center gap-2 text-blue-400 sm:text-xl">
             <Calculator className="w-5 h-5" /> 2. The Edge Funnel
           </h2>
           <p>
@@ -80,7 +80,7 @@ const AtlasWhitepaper: React.FC = () => {
 
         {/* 3. Controlled Chaos */}
         <section id="mechanism" className="space-y-6">
-          <h2 className="text-2xl font-bold flex items-center gap-2 text-blue-400">
+          <h2 className="md:text-2xl font-bold flex items-center gap-2 text-blue-400 sm:text-xl">
             <Cpu className="w-5 h-5" /> 3. Controlled Chaos
           </h2>
           <p>
@@ -93,7 +93,7 @@ const AtlasWhitepaper: React.FC = () => {
 
         {/* 4. Game Theory */}
         <section id="volatility" className="space-y-6">
-          <h2 className="text-2xl font-bold flex items-center gap-2 text-blue-400">
+          <h2 className="md:text-2xl font-bold flex items-center gap-2 text-blue-400 sm:text-xl">
             <LineChart className="w-5 h-5" /> 4. Game Theory & Machiavellian Strategy
           </h2>
           <p>
@@ -106,7 +106,7 @@ const AtlasWhitepaper: React.FC = () => {
 
         {/* 5. Behavioral Edges */}
         <section id="liquidity" className="space-y-6">
-          <h2 className="text-2xl font-bold flex items-center gap-2 text-blue-400">
+          <h2 className="md:text-2xl font-bold flex items-center gap-2 text-blue-400 sm:text-xl">
             <Brain className="w-5 h-5" /> 5. Behavioral & Cognitive Edges
           </h2>
           <p>
@@ -119,7 +119,7 @@ const AtlasWhitepaper: React.FC = () => {
 
         {/* 6. ATLAS Mechanisms */}
         <section id="implementation" className="space-y-6">
-          <h2 className="text-2xl font-bold flex items-center gap-2 text-blue-400">
+          <h2 className="md:text-2xl font-bold flex items-center gap-2 text-blue-400 sm:text-xl">
             <Code className="w-5 h-5" /> 6. ATLAS Mechanisms
           </h2>
           <p>
@@ -132,7 +132,7 @@ const AtlasWhitepaper: React.FC = () => {
 
         {/* 7. Strategic Implementation */}
         <section id="risk" className="space-y-6">
-          <h2 className="text-2xl font-bold flex items-center gap-2 text-blue-400">
+          <h2 className="md:text-2xl font-bold flex items-center gap-2 text-blue-400 sm:text-xl">
             <Shield className="w-5 h-5" /> 7. Implementation
           </h2>
           <p>
@@ -145,7 +145,7 @@ const AtlasWhitepaper: React.FC = () => {
 
         {/* 8. Conclusion */}
         <section id="performance" className="space-y-6">
-          <h2 className="text-2xl font-bold flex items-center gap-2 text-blue-400">
+          <h2 className="md:text-2xl font-bold flex items-center gap-2 text-blue-400 sm:text-xl">
             <BarChart className="w-5 h-5" /> 8. Conclusion
           </h2>
           <p>

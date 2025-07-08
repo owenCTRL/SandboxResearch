@@ -4,8 +4,8 @@ import React from 'react';
 const Contact: React.FC = () => {
 
   return (
-    <section id="contact" className="pt-8 pb-8 mb-50 px-4 bg-gray-900/30 rounded-3xl backdrop-blur-xl text-white">
-      <form className="space-y-6 max-w-xl">
+    <section id="contact" className="pt-8 pb-8 mb-40 px-4 bg-gray-900/30 rounded-3xl backdrop-blur-xl text-white md:w-[40vw] w-[80vw]">
+      <form className="space-y-6">
         <div>
           <label htmlFor="name" className="block mb-2 text-sm font-medium">
             Name

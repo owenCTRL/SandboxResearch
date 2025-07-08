@@ -130,7 +130,7 @@ const OttrOfferingsSection: React.FC = () => {
 
   return (
     <div className="min-h-screen w-full text-white p-10">
-      <div className="max-w-6xl mx-auto mb-30">
+      <div className="max-w-6xl mx-auto mt-20">
         {/* Section Header */}
         <div className="text-center mb-16" id="offerings">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">

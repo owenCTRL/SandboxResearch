@@ -30,7 +30,7 @@ const OttrHero: React.FC = () => {
     <div className="min-h-screen w-full text-white overflow-hidden">
       <div className="relative min-h-[calc(100vh-4rem)] flex items-center justify-center" id='home'>
         <div className="relative z-10 text-center px-6 max-w-7xl mx-auto">
-          <div className="mb-8 inline-flex items-center justify-center">
+          <div className="mb-16 mt-[10vh] inline-flex items-center justify-center">
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent sm:text-2xl md:text-4xl">Sandbox Research</span>
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-10">
@@ -48,7 +48,7 @@ const OttrHero: React.FC = () => {
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 opacity-0 animate-fadeInUp animation-delay-400">
             Winning isn&apos;t luck. It&apos;s strategy.<br></br>
             We build strategies and model outcomes for <span className="text-white font-semibold">politics</span>, <span className="text-white font-semibold">business</span>, and <span className="text-white font-semibold">more.</span><br></br><br />
-            <span className="block text-white font-semibold">Test. Tweak. Win.</span>
+            <span className="text-2xl inline font-semibold text-white bg-clip-text text-transparent">Test.</span><span className="text-2xl inline font-semibold text-white bg-clip-text text-transparent"> Tweak.</span><span className="text-2xl inline font-semibold bg-gradient-to-r from-green-400 via-teal-400 to-green-400 bg-clip-text text-transparent animate-gradient"> Win.</span>
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 opacity-0 animate-fadeInUp animation-delay-500">
             {performanceMetrics.map((metric, index) => (
