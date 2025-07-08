@@ -13,7 +13,7 @@ import {
 
 const AtlasWhitepaper: React.FC = () => {
   return (
-    <div className="min-h-screen w-full text-white p-10 relative overflow-hidden">
+    <div className="min-h-screen w-full text-white p-6 relative overflow-hidden">
       {/* Animated Orbs Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
         <div className="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-gradient-to-br from-blue-800/10 via-indigo-800/10 to-blue-900/10 blur-3xl animate-float-slow" />
@@ -32,10 +32,10 @@ const AtlasWhitepaper: React.FC = () => {
           <p className="text-gray-400 mt-4 text-lg">
             Predictive Modeling and Strategic Framework for Dominance in Complex Environments
           </p>
-          <div className="flex justify-center gap-4 mt-6 mb-8 md:text-sm text-gray-500 sm:text-xs">
+          <div className="flex justify-center gap-4 mt-6 mb-8 text-sm text-gray-500 sm:text-xs">
             <span>Sandbox Research</span>
             <span>•</span>
-            <span>v1.0 | July 2025</span>
+            <span>July 2025</span>
           </div>
         </div>
 

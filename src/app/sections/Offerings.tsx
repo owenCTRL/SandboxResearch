@@ -129,7 +129,7 @@ const OttrOfferingsSection: React.FC = () => {
   const activeOfferingData = offerings.find(o => o.id === activeOffering);
 
   return (
-    <div className="min-h-screen w-full text-white p-10">
+    <div className="min-h-screen w-full text-white p-6">
       <div className="max-w-6xl mx-auto mt-20">
         {/* Section Header */}
         <div className="text-center mb-16" id="offerings">
@@ -206,10 +206,10 @@ const OttrOfferingsSection: React.FC = () => {
               <div className="md:col-span-2">
                 <p className="text-gray-300 mb-4">{activeOfferingData.description}</p>
                 <div className="flex gap-4">
-                  <button className="px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-xl font-semibold hover:scale-105 transition-transform">
+                  <button className="px-6 py-3 bg-gradient-to-r text-xs from-blue-600 to-cyan-600 rounded-xl font-semibold hover:scale-105 transition-transform">
                     Learn More
                   </button>
-                  <button className="px-6 py-3 bg-gray-800 rounded-xl font-semibold hover:bg-gray-700 transition-colors">
+                  <button className="px-6 py-3 bg-gray-800 text-xs rounded-xl font-semibold hover:bg-gray-700 transition-colors">
                     View Case Studies
                   </button>
                 </div>
@@ -219,7 +219,7 @@ const OttrOfferingsSection: React.FC = () => {
                 {activeOfferingData.stats.map((stat, index) => (
                   <div key={index} className="flex justify-between items-center mb-3">
                     <span className="text-gray-300">{stat.label}</span>
-                    <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+                    <span className="text-sm sm:text-xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
                       {stat.value}
                     </span>
                   </div>
@@ -273,7 +273,7 @@ const OttrOfferingsSection: React.FC = () => {
         </div>
 
         {/* Bottom Stats */}
-        <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             { icon: <Globe className="w-6 h-6" />, value: '30+', label: 'Client Regions Served' },
             { icon: <Activity className="w-6 h-6" />, value: '300+', label: 'Strategic Interventions' },

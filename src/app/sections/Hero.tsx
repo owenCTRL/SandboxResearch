@@ -33,16 +33,15 @@ const OttrHero: React.FC = () => {
           <div className="mb-16 mt-[10vh] inline-flex items-center justify-center">
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent sm:text-2xl md:text-4xl">Sandbox Research</span>
           </div>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-10">
-            <span className="block opacity-0 animate-fadeInUp font-bold sm:text-4xl md:text-6xl">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-10 text-center">
+            <span className="inline-block opacity-0 animate-fadeInUp font-bold sm:text-4xl md:text-6xl">
               Build a Strategy That Wins.
             </span>
-            <span className="block mt-2 opacity-0 animate-fadeInUp animation-delay-200 font-bold sm:text-4xl md:text-6xl">
-              Any Industry.{' '}
+            <span className="inline-block mt-2 opacity-0 animate-fadeInUp animation-delay-200 font-bold sm:text-4xl md:text-6xl">
+              {' '}Any Industry.{' '}
               <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent animate-gradient">
                 Any Goal.
               </span>
-              <br></br>
             </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 opacity-0 animate-fadeInUp animation-delay-400">
@@ -50,7 +49,7 @@ const OttrHero: React.FC = () => {
             We build strategies and model outcomes for <span className="text-white font-semibold">politics</span>, <span className="text-white font-semibold">business</span>, and <span className="text-white font-semibold">more.</span><br></br><br />
             <span className="text-2xl inline font-semibold text-white bg-clip-text text-transparent">Test.</span><span className="text-2xl inline font-semibold text-white bg-clip-text text-transparent"> Tweak.</span><span className="text-2xl inline font-semibold bg-gradient-to-r from-green-400 via-teal-400 to-green-400 bg-clip-text text-transparent animate-gradient"> Win.</span>
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-12 opacity-0 animate-fadeInUp animation-delay-500">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 opacity-0 animate-fadeInUp animation-delay-500">
             {performanceMetrics.map((metric, index) => (
               <div 
                 key={metric.label}
@@ -68,7 +67,7 @@ const OttrHero: React.FC = () => {
               </div>
             ))}
           </div>
-          <div className="flex flex-col sm:flex-row max-w-[300px] gap-4 justify-center ml-auto mr-auto mb-12 opacity-0 animate-fadeInUp animation-delay-600">
+          <div className="flex flex-col sm:flex-row max-w-[250px] gap-4 justify-center ml-auto mr-auto mb-6 opacity-0 animate-fadeInUp animation-delay-600">
             <button className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
               <a href="mailto:owen.ottr@gmail.com" className="relative z-10 flex items-center justify-center">
                 Build Your Strategy
