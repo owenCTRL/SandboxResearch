@@ -113,7 +113,10 @@ const AtlasWhitepaper: React.FC = () => {
             People aren&apos;t rational. Kahneman’s dual-system theory and Thaler’s nudges show us how to steer decisions with subtle design. Make the best move the obvious one – the path of least resistance.
           </p>
           <p>
-            This is not coercion; it&apos;s alignment. Frame choices and environments so that victory is not just possible – it’s inevitable.
+            This is called <i>alignment</i>.
+          </p>
+          <p>
+            Frame choices and environments so that victory is not just possible – it’s inevitable.
           </p>
         </section>
 
@@ -123,10 +126,13 @@ const AtlasWhitepaper: React.FC = () => {
             <Code className="w-5 h-5" /> 6. ATLAS Mechanisms
           </h2>
           <p>
-            ATLAS is not theory; it&apos;s application. It embeds the Victory Stack and Edge Funnel in code. Volatility engines rebalance weight. Synthetic options hedge losses. Momentum is captured. Chaos is harnessed.
+            ATLAS, the name for our strategic design system, is not theory.
           </p>
           <p>
-            Backtests show significantly better performance than passive indices – not because of luck, but because of design. Like a well-planned campaign, ATLAS wins before it begins.
+            Backtests show significantly better performance than if unimplemented – not because of luck, but because of design.
+          </p>
+          <p>
+            Like a well-planned campaign, ATLAS wins before it begins.
           </p>
         </section>
 
@@ -139,7 +145,7 @@ const AtlasWhitepaper: React.FC = () => {
             Victory demands action. Begin by defining your own Victory Stack. Clarify objectives. Identify Edge Funnels – where small moves yield big wins. Design Chaos Controls. And layer in feedback: so each move is measured and reinforced.
           </p>
           <p>
-            Most importantly, align your team. Incentivize them to climb the stack. Make the right move simple, the win inevitable.
+            Most importantly: Make the right move simple, the win inevitable.
           </p>
         </section>
 
