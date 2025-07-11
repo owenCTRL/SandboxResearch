@@ -11,9 +11,7 @@
 <p align="center">
   <img src="misc/assets/sandbox-logo.png" alt="Sandbox Research Logo" width="100" />
 </p>
-
 <h3 align="center">Sandbox Research</h3>
-
 <p align="center">
   <strong>Build a strategy that wins.<br />Any industry. Any time.</strong>
   <br /><br />
