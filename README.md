@@ -103,7 +103,7 @@ We welcome contributors who share our mission. If you’re obsessed with precisi
 
 ## 📡 Contact
 
-* Twitter: [@OTTRCo](https://twitter.com/ottrco)
+* Twitter: [@OTTRCo](https://twitter.com/clickroot)
 * Founder: [0xOwen](https://x.com/0xOwen)
 * GitHub: [@owenCTRL](https://github.com/owenCTRL)
 
