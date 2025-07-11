@@ -31,10 +31,10 @@ We serve clients across industries with algorithmic tools that adapt, evolve, an
 
 Sandbox Research supports clients who **can’t afford to lose**:
 
-* **Political Strategy** — narrative modeling, power dynamics, voter simulations
-* **Business Strategy** — market domination, competitive advantage, brand infiltration
-* **Financial Strategy** — risk-aware simulation, strategic allocation, timing models
-* **Social Strategy** — influence ops, virality pathways, engagement escalation
+* **Political Strategy** — Narrative modeling, power dynamics, voter simulations
+* **Business Strategy** — Market domination, competitive advantage, brand infiltration
+* **Financial Strategy** — Risk-aware simulation, strategic allocation, timing models
+* **Social Strategy** — Influence ops, virality pathways, engagement escalation
 
 Whether the battlefield is a boardroom, ballot, or browser, our models are tuned to win.
 
@@ -42,9 +42,9 @@ Whether the battlefield is a boardroom, ballot, or browser, our models are tuned
 
 ## 🔬 Our Method
 
-* 🧮 **Quantitative Simulation** — we model systems before they exist
-* 🧠 **Adaptive Intelligence** — strategies respond in real time, not in hindsight
-* 🕳️ **Machiavellian Optimization** — we don’t moralize; we maximize
+* 🧮 **Quantitative Simulation** — We model systems before they exist
+* 🧠 **Adaptive Intelligence** — Strategies respond in real time, not in hindsight
+* 🕳️ **Machiavellian Optimization** — We don’t moralize; we maximize
 
 We combine human ambition with machine logic — to outthink, outflank, and outperform the competition.
 
