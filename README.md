@@ -19,7 +19,7 @@
 
 ---
 
-🧠 What is Sandbox Research?
+## 🧠 What is Sandbox Research?
 
 **Sandbox Research** is a strategic modeling engine built to craft and test strategies that win — no matter the landscape.
 We serve clients across industries with algorithmic tools that adapt, evolve, and outperform.
