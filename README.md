@@ -9,103 +9,106 @@
 
 <br />
 <p align="center">
-  <img src="misc/assets/clickroot-logo.png" alt="Clickroot Logo" width="100" />
+  <img src="misc/assets/sandbox-logo.png" alt="Sandbox Research Logo" width="100" />
 </p>
 
-<h3 align="center">Clickroot</h3>
+<h3 align="center">Sandbox Research</h3>
 
 <p align="center">
-  Mission-critical, by design.
-  <br />
-  <strong>Applied software for visibility, velocity, and resilience at scale.</strong>
+  <strong>Build a strategy that wins.<br />Any industry. Any time.</strong>
   <br /><br />
-  <a href="https://github.com/owenCTRL/Clickroot/issues">Report Bug</a>
+  Quantitative modeling meets Machiavellian execution.
+  <br /><br />
+  <a href="https://github.com/owenCTRL/SandboxResearch/issues">Report Bug</a>
   ·
-  <a href="https://github.com/owenCTRL/Clickroot/issues">Request Feature</a>
+  <a href="https://github.com/owenCTRL/SandboxResearch/issues">Request Feature</a>
 </p>
 
 ---
 
-## ⚙️ About Clickroot
+## 🧠 What is Sandbox Research?
 
-Clickroot builds **mission-critical software** for environments where failure is not an option.
-Rooted in defense-grade design principles, we bring clarity, observability, and control to web-scale infrastructure and operations.
+**Sandbox Research** is a strategic modeling engine built to craft and test strategies that win — no matter the landscape.
+We serve clients across industries with algorithmic tools that adapt, evolve, and outperform.
 
-> **Built for signal. Tuned for scale. Deployed with certainty.**
-
-Clickroot is part of the OTTR Co. portfolio — a venture studio focused on building frontier technology from first principles.
-
----
-
-## 💡 What We Build
-
-* **Real-time observability platforms**
-* **Telemetry engines for distributed systems**
-* **Zero-bloat frontends for operator clarity**
-* **Infrastructure tools that don’t fail silently**
-* **Mission-focused dev tooling and automation**
-
-Every system we deploy is designed to meet real-world stress:
-high-availability zones, blackout-resilient monitoring, and controlled fallbacks.
+> From political warfare to business dominance, from financial positioning to social media virality —
+> we build strategies that don’t just survive. They conquer.
 
 ---
 
-## 🧱 Tech Stack
+## 🕴 Who We Serve
 
-Our engineering toolbox includes:
+Sandbox Research supports clients who can’t afford to lose:
+
+* **Political Strategy** — narrative modeling, power dynamics, voter simulations
+* **Business Strategy** — market domination, competitive advantage, brand infiltration
+* **Financial Strategy** — risk-aware simulation, strategic allocation, timing models
+* **Social Strategy** — influence ops, virality pathways, engagement escalation
+
+Whether the battlefield is a boardroom, ballot, or browser, our models are tuned to win.
+
+---
+
+## 🔬 Our Method
+
+* 🧮 **Quantitative Simulation** — we model systems before they exist
+* 🧠 **Adaptive Intelligence** — strategies respond in real time, not in hindsight
+* 🕳️ **Machiavellian Optimization** — we don’t moralize; we maximize
+
+We combine human ambition with machine logic — to outthink, outflank, and outperform the competition.
+
+---
+
+## 🧱 Core Stack
 
 [![Python][Python.org]][Python-url]
-[![Javascript][Javascript.com]][Javascript-url]
-[![Tensorflow][Tensorflow.org]][Tensorflow-url]
-[![MySQL][MySQL.com]][MySQL-url]
-[![Excel][Excel.com]][Excel-url]
-
-We believe in using the right tool for the job — even if that means writing our own.
+[![R][R.com]][R-url]
+[![Pandas][Pandas.org]][Pandas-url]
+[![D3][D3.com]][D3-url]
+[![Matplotlib][Matplotlib.com]][Matplotlib-url]
 
 ---
 
-## 🚀 Get Started
+## 🚀 Getting Started
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/owenCTRL/Clickroot.git
-cd Clickroot
+git clone https://github.com/owenCTRL/SandboxResearch.git
+cd SandboxResearch
 ```
 
 Install dependencies:
 
 ```bash
-npm install
-# or
 pip install -r requirements.txt
 ```
 
-Start development server:
+Run the sandbox:
 
 ```bash
-npm run dev
+python model.py --run
 ```
 
 ---
 
 ## 🤝 Contribute
 
-We welcome contributors who share our mission. If you’re obsessed with precision software and engineering systems that hold under pressure — we want to build with you.
+We collaborate with strategists, theorists, engineers, and data scientists. If you're building decision engines or system simulators — or want to — we’d like to hear from you.
 
-* Fork the repo
-* Create your branch (`git checkout -b feature/YourFeature`)
-* Commit your changes (`git commit -m 'Add amazing feature'`)
-* Push to the branch (`git push origin feature/YourFeature`)
-* Open a pull request
+---
+
+## 🧾 License
+
+This project is closed-source by default. Custom licensing and white-label access available on request.
 
 ---
 
 ## 📡 Contact
 
-* Twitter: [@OTTRCo](https://twitter.com/clickroot)
-* Founder: [0xOwen](https://x.com/0xOwen)
 * GitHub: [@owenCTRL](https://github.com/owenCTRL)
+* Twitter: [@OTTRCo](https://twitter.com/ottrco)
+* Founder: [0xOwen](https://x.com/0xOwen)
 
 ---
 
@@ -113,17 +116,17 @@ We welcome contributors who share our mission. If you’re obsessed with precisi
 
 <!-- SHIELD LINK DEFINITIONS -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/owenCTRL/Clickroot.svg?style=for-the-badge
-[forks-shield]: https://img.shields.io/github/forks/owenCTRL/Clickroot.svg?style=for-the-badge
-[stars-shield]: https://img.shields.io/github/stars/owenCTRL/Clickroot.svg?style=for-the-badge
-[issues-shield]: https://img.shields.io/github/issues/owenCTRL/Clickroot.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/owenCTRL/SandboxResearch.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/owenCTRL/SandboxResearch.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/owenCTRL/SandboxResearch.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/owenCTRL/SandboxResearch.svg?style=for-the-badge
 [Python.org]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
-[Javascript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-[Javascript-url]: https://www.javascript.com/
-[Tensorflow.org]: https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white
-[Tensorflow-url]: https://www.tensorflow.org/
-[MySQL.com]: https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white
-[MySQL-url]: https://www.mysql.com/
-[Excel.com]: https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white
-[Excel-url]: https://www.microsoft.com/en-us/microsoft-365/excel
+[R.com]: https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white
+[R-url]: https://www.r-project.org/
+[Pandas.org]: https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
+[Pandas-url]: https://pandas.pydata.org/
+[D3.com]: https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white
+[D3-url]: https://d3js.org/
+[Matplotlib.com]: https://img.shields.io/badge/Matplotlib-FF4B00?style=for-the-badge&logo=plotly&logoColor=white
+[Matplotlib-url]: https://matplotlib.org/
