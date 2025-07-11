@@ -4,6 +4,7 @@ import OttrHero from "./sections/Hero";
 import OttrOfferingsSection from "./sections/Offerings";
 import AtlasWhitepaper from "./sections/Whitepaper";
 import Contact from "./sections/Contact";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
         <AtlasWhitepaper />
         <Contact />
       </main>
+      <Analytics />
     </>
   );
 }
