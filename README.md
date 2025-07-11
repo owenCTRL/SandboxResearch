@@ -52,8 +52,7 @@ We combine human ambition with machine logic — to outthink, outflank, and outp
 
 ## 📡 Contact
 
-* GitHub: [@owenCTRL](https://github.com/owenCTRL)
-* Twitter: [@SandboxResearch](https://twitter.com/sandboxresearch)
+]* X: [@SandboxResearch](https://x.com/sandboxresearch)
   
 <br />
 
