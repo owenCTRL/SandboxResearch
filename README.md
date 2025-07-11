@@ -15,8 +15,6 @@
 <p align="center">
   <strong>Build a strategy that wins.<br />Any industry. Any time.</strong>
   <br /><br />
-  Quantitative modeling meets Machiavellian execution.
-  <br /><br />
 </p>
 
 
