@@ -19,9 +19,6 @@
   <br /><br />
   Quantitative modeling meets Machiavellian execution.
   <br /><br />
-  <a href="https://github.com/owenCTRL/SandboxResearch/issues">Report Bug</a>
-  ·
-  <a href="https://github.com/owenCTRL/SandboxResearch/issues">Request Feature</a>
 </p>
 
 ---
@@ -31,14 +28,14 @@
 **Sandbox Research** is a strategic modeling engine built to craft and test strategies that win — no matter the landscape.
 We serve clients across industries with algorithmic tools that adapt, evolve, and outperform.
 
-> From political warfare to business dominance, from financial positioning to social media virality —
-> we build strategies that don’t just survive. They conquer.
+> From politics to business, from finance to social media —
+> we build strategies that win. Guaranteed.
 
 ---
 
 ## 🕴 Who We Serve
 
-Sandbox Research supports clients who can’t afford to lose:
+Sandbox Research supports clients who **can’t afford to lose**:
 
 * **Political Strategy** — narrative modeling, power dynamics, voter simulations
 * **Business Strategy** — market domination, competitive advantage, brand infiltration
@@ -59,57 +56,11 @@ We combine human ambition with machine logic — to outthink, outflank, and outp
 
 ---
 
-## 🧱 Core Stack
-
-[![Python][Python.org]][Python-url]
-[![R][R.com]][R-url]
-[![Pandas][Pandas.org]][Pandas-url]
-[![D3][D3.com]][D3-url]
-[![Matplotlib][Matplotlib.com]][Matplotlib-url]
-
----
-
-## 🚀 Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/owenCTRL/SandboxResearch.git
-cd SandboxResearch
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the sandbox:
-
-```bash
-python model.py --run
-```
-
----
-
-## 🤝 Contribute
-
-We collaborate with strategists, theorists, engineers, and data scientists. If you're building decision engines or system simulators — or want to — we’d like to hear from you.
-
----
-
-## 🧾 License
-
-This project is closed-source by default. Custom licensing and white-label access available on request.
-
----
-
 ## 📡 Contact
 
 * GitHub: [@owenCTRL](https://github.com/owenCTRL)
-* Twitter: [@OTTRCo](https://twitter.com/ottrco)
-* Founder: [0xOwen](https://x.com/0xOwen)
-
+* Twitter: [@SandboxResearch](https://twitter.com/sandboxresearch)
+  
 ---
 
 <p align="center"><a href="#readme-top">⬆️ Back to Top</a></p>
