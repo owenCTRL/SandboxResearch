@@ -17,8 +17,6 @@
   <br /><br />
 </p>
 
-<br />
-
 ## 🧠 What is Sandbox Research?
 
 **Sandbox Research** is a strategic modeling engine built to craft and test strategies that win — no matter the landscape.
@@ -27,7 +25,7 @@ We serve clients across industries with algorithmic tools that adapt, evolve, an
 > From politics to business, from finance to social media —
 > we build strategies that win. Guaranteed.
 
-
+<br />
 
 ## 🕴 Who We Serve
 
@@ -40,7 +38,7 @@ Sandbox Research supports clients who **can’t afford to lose**:
 
 Whether the battlefield is a boardroom, ballot, or browser, our models are tuned to win.
 
-
+<br />
 
 ## 🔬 Our Method
 
@@ -50,13 +48,14 @@ Whether the battlefield is a boardroom, ballot, or browser, our models are tuned
 
 We combine human ambition with machine logic — to outthink, outflank, and outperform the competition.
 
-
+<br />
 
 ## 📡 Contact
 
 * GitHub: [@owenCTRL](https://github.com/owenCTRL)
 * Twitter: [@SandboxResearch](https://twitter.com/sandboxresearch)
   
+<br />
 
 <p align="center"><a href="#readme-top">⬆️ Back to Top</a></p>
 
