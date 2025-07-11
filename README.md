@@ -21,7 +21,6 @@
   <br /><br />
 </p>
 
----
 
 ## 🧠 What is Sandbox Research?
 
@@ -31,7 +30,6 @@ We serve clients across industries with algorithmic tools that adapt, evolve, an
 > From politics to business, from finance to social media —
 > we build strategies that win. Guaranteed.
 
----
 
 ## 🕴 Who We Serve
 
@@ -44,7 +42,6 @@ Sandbox Research supports clients who **can’t afford to lose**:
 
 Whether the battlefield is a boardroom, ballot, or browser, our models are tuned to win.
 
----
 
 ## 🔬 Our Method
 
@@ -54,14 +51,12 @@ Whether the battlefield is a boardroom, ballot, or browser, our models are tuned
 
 We combine human ambition with machine logic — to outthink, outflank, and outperform the competition.
 
----
 
 ## 📡 Contact
 
 * GitHub: [@owenCTRL](https://github.com/owenCTRL)
 * Twitter: [@SandboxResearch](https://twitter.com/sandboxresearch)
   
----
 
 <p align="center"><a href="#readme-top">⬆️ Back to Top</a></p>
 
