@@ -52,7 +52,7 @@ We combine human ambition with machine logic — to outthink, outflank, and outp
 
 ## 📡 Contact
 
-X: [@SandboxResearch](https://x.com/sandboxresearch)
+[@SandboxResearch](https://x.com/sandboxresearch)
   
 <br />
 
